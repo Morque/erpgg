@@ -1,0 +1,17 @@
+.banderin{
+    /* background-color: white;
+    height: 15px;
+    width: 15px;
+    border: solid 1px gray;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-bottom: -3px;
+    margin-left: 40%;
+    z-index: 99; */
+    width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 12px solid white;
+    z-index: 99;
+    margin-bottom: -1px;
+}
