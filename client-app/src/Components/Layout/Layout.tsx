@@ -13,18 +13,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   useEffect(() => {
     messages.showInformationMessage('You\'r welcome to ERPGG. Where you can play while you work.');
-    //messages.showConfirmMessage(() => { });
-    //messages.showErrorMessage('There is not error. It\' just a joke.');
-    // messages.showLoading();
-
-    // setTimeout(() => {
-    //   messages.hideLoading();
-    //   messages.showSucess();
-    // }, 3000);
-
-    // setTimeout(() => {
-    //   messages.hideSucess();
-    // }, 6000);
   }, [])
 
   return (

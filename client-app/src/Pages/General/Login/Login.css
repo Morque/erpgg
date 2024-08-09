@@ -1,0 +1,4 @@
+.login-fondo {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 30%, rgb(163, 174, 177) 90%);
+}

@@ -5,6 +5,7 @@ import { urlApi } from '../../../Providers/API';
 import { anonimous_icon } from '../../../Assets/images';
 import MenuHeader from './MenuHeader';
 import './Header.css';
+import { useNavigate } from 'react-router-dom';
 
 interface HeaderProps {
   children?: any
@@ -16,13 +17,14 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
   const [userName, setUserName] = useState<string>('');
   const [menuProfileOpen, setMenuProfileOpen] = useState<boolean>(false);
   const token = Cookies.get('SSID');
+  const navigate = useNavigate();
 
   const menuProfileContainerRef = useRef<HTMLDivElement>(null);
 
   const fetchModel = async () => {
     if (token) {
       try {
-        
+
       } catch (error) {
 
       }
@@ -61,6 +63,10 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
     }
   };
 
+  const logOutClick = () => {
+    navigate('/login', { replace: true });
+  }
+
   useEffect(() => {
     fetchModel();
     const first_name = Cookies.get('first_name') ?? '';
@@ -74,27 +80,26 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
 
   return (
     <div className='w-screen h-16 bg-slate-200 border border-gray-300 grid grid-cols-2 md:grid-cols-6 shadow-md shadow-gray-200'>
-      <h4 className='mx-12 my-auto text-xl text-zinc-600 font-semibold'>TutoSite</h4>
+      <a href='/' className='mx-12 my-auto text-xl text-zinc-600 font-semibold'>TutoSite</a>
       <div className='max-md:hidden grid-cols-subgrid col-span-4 my-auto'>
         <MenuHeader />
       </div>
       <div className='text-center my-auto'>
-        <div className='group' onClick={OpenProfileMenu}>
-          <a className='text-zinc-600 inline-block font-serif '>Hola, {userName}</a>
-          <img className='inline-block w-7 ml-3 group-hover:shadow-sm group-hover:shadow-neutral-700 rounded-full' src={anonimous_icon} />
+        <div className='' onClick={OpenProfileMenu}>
+          <a className='text-zinc-600 inline-block font-serif cursor-pointer'>Hola, {userName}</a>
+          <img className='inline-block w-7 ml-3 cursor-pointer' src={anonimous_icon} />
         </div>
         {
           menuProfileOpen && (
-            <>
-              <div
-                ref={menuProfileContainerRef}
-                className='animate-fade-down animate-duration-500 animate-ease-out absolute right-4 w-1/3 md:w-1/6 xl:w-2/12 '>
-                <div className='banderin mx-auto'></div>
-                <div className='rounded-sm shadow-xl bg-white border border-gray-300 py-2'>
-                <span>Mi perfil</span>
-                </div>
+            <div
+              ref={menuProfileContainerRef}
+              className='animate-fade-down animate-duration-500 animate-ease-out absolute right-4 xl:right-24 w-1/2 sm md:w-1/6 xl:w-1/12 '>
+              <div className='banderin mx-auto'></div>
+              <div className='rounded-md shadow-xl bg-slate-400 text-white py-2 flex flex-col items-center gap-2'>
+                <button className=''>Mi perfil</button>
+                <button className='' onClick={logOutClick}>Cerrar sesion</button>
               </div>
-            </>
+            </div>
           )
         }
       </div>

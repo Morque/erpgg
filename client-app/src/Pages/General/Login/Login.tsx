@@ -4,6 +4,8 @@ import axios from 'axios';
 import { urlApi } from '../../../Providers/API';
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
+import { anonimous_icon } from '../../../Assets/images';
+import './Login.css';
 
 interface LoginProps {
     children?: any
@@ -43,22 +45,22 @@ const Login: React.FC<LoginProps> = ({ children }) => {
     }
 
     return (
-        <div className='w-screen h-screen flex flex-col justify-center items-center bg-slate-50'>
+        <div className='w-screen h-screen flex flex-col justify-center items-center login-fondo bg-slate-50'>
             {messages.messageNodes}
             <div className='h-1/3 w-1/3 max-w-80 bg-slate-200 rounded-lg flex flex-col items-center justify-center shadow-md shadow-slate-700 min-w-64 min-h-60'>
-                <h4 className='text-xl text-slate-800 mb-6'>Ingresar</h4>
+                <img src={anonimous_icon} className='mb-5' />
                 <div
                     className='flex flex-col items-center justify-center w-3/4'
                 >
                     <input
-                        placeholder='User'
+                        placeholder='Usuario'
                         type='text'
                         name='user'
                         value={loginData.user}
                         onChange={handleOnChange}
                         className='rounded-md p-2 border w-full border-gray-400 bg-white text-center mb-2 shadow-sm shadow-zinc-700' />
                     <input
-                        placeholder='Password'
+                        placeholder='Contraseña'
                         type='password'
                         name='password'
                         value={loginData.password}
@@ -66,7 +68,7 @@ const Login: React.FC<LoginProps> = ({ children }) => {
                         className='rounded-md p-2 border w-full border-gray-400 text-center shadow-sm shadow-zinc-700' />
                     <button
                         onClick={handleOnClicklogin}
-                        className='mt-4 bg-cyan-950 text-white py-2 w-full rounded-lg shadow-sm shadow-zinc-700'>Entrar</button>
+                        className='font-semibold mt-4 bg-cyan-950 text-white py-2 w-full rounded-lg shadow-sm shadow-zinc-700 uppercase'>Ingresar</button>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-.banderin{
+.banderin {
     /* background-color: white;
     height: 15px;
     width: 15px;
@@ -8,10 +8,10 @@
     margin-left: 40%;
     z-index: 99; */
     width: 0;
-	height: 0;
-	border-left: 8px solid transparent;
-	border-right: 8px solid transparent;
-	border-bottom: 12px solid white;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 12px solid rgb(148 163 184);
     z-index: 99;
     margin-bottom: -1px;
 }

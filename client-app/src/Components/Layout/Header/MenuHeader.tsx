@@ -12,11 +12,11 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ children }) => {
       <div className='flex justify-center items-center my-auto'>
         <img src={left_arrow} className='w-5/12'/>
       </div>
-      <h2 className='text-slate-600'>Menu</h2>
-      <h2 className='text-slate-600'>Menu</h2>
-      <h2 className='text-slate-600'>Menu</h2>
-      <h2 className='text-slate-600'>Menu</h2>
-      <h2 className='text-slate-600'>Menu</h2>
+      <h2 className='text-slate-600 hover:text-slate-400 cursor-pointer'>Admin</h2>
+      <h2 className='text-slate-600 hover:text-slate-400 cursor-pointer'>Clientes</h2>
+      <h2 className='text-slate-600 hover:text-slate-400 cursor-pointer'>Comercial</h2>
+      <h2 className='text-slate-600 hover:text-slate-400 cursor-pointer'>Fianzas</h2>
+      <h2 className='text-slate-600 hover:text-slate-400 cursor-pointer'>Operaciones</h2>
       <div className='flex justify-center items-center'>
         <img src={right_arrow} className='w-5/12'/>
       </div>
