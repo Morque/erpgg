@@ -12,11 +12,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const messages = useMessages();
 
   useEffect(() => {
-    messages.showInformationMessage('You\'r welcome to ERPGG. Where you can play while you work.');
+    
   }, [])
 
   return (
-    <div className='h-screen w-screen flex flex-col'>
+    <div className='h-screen w-screen flex flex-col overflow-x-hidden overflow-y-hidden'>
       {messages.messageNodes}
       <Header />
       <div className='w-full flex-grow'>

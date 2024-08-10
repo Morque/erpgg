@@ -78,11 +78,36 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
     };
   }, [])
 
+  const menus = [
+    { displayText: 'Admin', children: '' },
+    { displayText: 'Clientes', children: '' },
+    { displayText: 'Facturas', children: '' },
+    { displayText: 'Comercial', children: '' },
+    { displayText: 'Finanzas', children: '' },
+    { displayText: 'Almacen', children: '' },
+    { displayText: 'Almacen 1', children: '' },
+    { displayText: 'Almacen 2', children: '' },
+    { displayText: 'Almacen 3', children: '' },
+    { displayText: 'Almacen 4', children: '' },
+    { displayText: 'Almacen 5', children: '' },
+    { displayText: 'Almacen 6', children: '' },
+    { displayText: 'Almacen 7', children: '' },
+    { displayText: 'Almacen 8', children: '' },
+    { displayText: 'Almacen 9', children: '' },
+    { displayText: 'Almacen 10', children: '' },
+    { displayText: 'Almacen 11', children: '' },
+    { displayText: 'Almacen 12', children: '' },
+    { displayText: 'Almacen 13', children: '' },
+    { displayText: 'Almacen 14', children: '' },
+    { displayText: 'Almacen 15', children: '' },
+    { displayText: 'Almacen 16', children: '' },
+  ]
+
   return (
     <div className='w-screen h-16 bg-slate-200 border border-gray-300 grid grid-cols-2 md:grid-cols-6 shadow-md shadow-gray-200'>
       <a href='/' className='mx-12 my-auto text-xl text-zinc-600 font-semibold'>TutoSite</a>
       <div className='max-md:hidden grid-cols-subgrid col-span-4 my-auto'>
-        <MenuHeader />
+        <MenuHeader listMenus={menus} />
       </div>
       <div className='text-center my-auto'>
         <div className='' onClick={OpenProfileMenu}>

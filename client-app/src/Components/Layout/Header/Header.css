@@ -1,12 +1,4 @@
 .banderin {
-    /* background-color: white;
-    height: 15px;
-    width: 15px;
-    border: solid 1px gray;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    margin-bottom: -3px;
-    margin-left: 40%;
-    z-index: 99; */
     width: 0;
     height: 0;
     border-left: 8px solid transparent;
@@ -14,4 +6,68 @@
     border-bottom: 12px solid rgb(148 163 184);
     z-index: 99;
     margin-bottom: -1px;
+}
+
+.menu-header {
+    overflow-x: hidden;
+}
+
+.menu-header-fade-out {
+    animation: menu-anim-fadeout 0.3s ease-in-out;
+}
+
+.menu-header-fade-in {
+    animation: menu-anim-fadein 0.3s ease-in-out;
+}
+
+.menu-anim-fadein-reverse{
+    animation: menu-anim-fadein-reverse 0.3s ease-in-out;
+}
+
+.menu-anim-fadeout-reverse{
+    animation: menu-anim-fadeout-reverse 0.3s ease-in-out;
+}
+
+@keyframes menu-anim-fadeout {
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes menu-anim-fadein {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+}
+
+@keyframes menu-anim-fadein-reverse {
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes menu-anim-fadeout-reverse {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
 }
