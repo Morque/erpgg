@@ -56,14 +56,14 @@
     }
 
     100% {
-        transform: translateX(-100%);
+        transform: translateX(100%);
         opacity: 0;
     }
 }
 
 @keyframes menu-anim-fadeout-reverse {
     0% {
-        transform: translateX(100%);
+        transform: translateX(-100%);
         opacity: 0;
     }
 

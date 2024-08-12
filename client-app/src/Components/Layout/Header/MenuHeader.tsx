@@ -66,7 +66,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
         setTimeout(() => {
             setIndexMenuSectionDisplayed(indexMenuSectionDisplayed as number + 1);
             if (menuSections) setCurrentMenuSectionDisplayed(menuSections[indexMenuSectionDisplayed as number + 1]);
-        }, 250);
+        }, 250);    
 
     }
 
@@ -74,12 +74,12 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
         if (indexMenuSectionDisplayed == 0) return
         menuCenterContainerRef.current?.classList.remove('menu-header-fade-in');
         menuCenterContainerRef.current?.classList.remove('menu-header-fade-out');
-        menuCenterContainerRef.current?.classList.remove('menu-anim-fadein-reverse');
-        menuCenterContainerRef.current?.classList.add('menu-anim-fadeout-reverse');
+        menuCenterContainerRef.current?.classList.remove('menu-anim-fadeout-reverse');
+        menuCenterContainerRef.current?.classList.add('menu-anim-fadein-reverse');
 
         setTimeout(() => {
-            menuCenterContainerRef.current?.classList.remove('menu-anim-fadeout-reverse');
-            menuCenterContainerRef.current?.classList.add('menu-anim-fadein-reverse');
+            menuCenterContainerRef.current?.classList.remove('menu-anim-fadein-reverse');
+            menuCenterContainerRef.current?.classList.add('menu-anim-fadeout-reverse');
         }, 200);
 
         setTimeout(() => {
