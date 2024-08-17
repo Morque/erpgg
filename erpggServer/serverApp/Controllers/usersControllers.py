@@ -1,8 +1,8 @@
 from rest_framework.decorators import  api_view
 from rest_framework.response import Response
 from serverApp.Helpers.Tokens import generate_ssid_token, check_password, hash_password
-from serverApp.Helpers.decorators import is_authorized
 from serverApp.Models.user import User
+
 
 @api_view(['POST'])
 def login(request):
@@ -23,7 +23,7 @@ def login(request):
             return Response({'message': 'bad credentials'}, status=401)
     else:        
         return Response({'messages': 'All filds are required'}, status=400)
-    
+
     
 @api_view(['POST','PATCH'])
 def users(request):

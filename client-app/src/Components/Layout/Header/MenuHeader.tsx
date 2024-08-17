@@ -11,13 +11,24 @@ interface MenuHeaderProps {
     listMenus?: Array<MenuLayout>
 }
 
+const useMenuSectionContext = () => {
+    const [_indexMenuSectionDisplayed, _setIndexMenuSectionDisplayed] = useState<number>(0);
+
+    return ({
+        indexMenuSectionDisplayed: _indexMenuSectionDisplayed,
+        setIndexMenuSectionDisplayed: _setIndexMenuSectionDisplayed,
+    })
+}
+
 const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
 
     const [menuSections, setMenusSections] = useState<Array<Array<MenuLayout>>>();
     const [currentMenuSectionDisplayed, setCurrentMenuSectionDisplayed] = useState<Array<MenuLayout>>();
-    const [indexMenuSectionDisplayed, setIndexMenuSectionDisplayed] = useState<Number>(0);
 
+    const { indexMenuSectionDisplayed, setIndexMenuSectionDisplayed } = useMenuSectionContext();
     const menuCenterContainerRef = useRef<HTMLDivElement>(null);
+
+    const menusRefs = useRef<{ [key: number]: HTMLUListElement | null }>({});
 
     function chunkArray(array: Array<MenuLayout>, chunkSize: number) {
         const result = [];
@@ -41,12 +52,18 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
             if (listMenus?.length <= 5) {
                 setMenusSections([[...listMenus]]);
                 setCurrentMenuSectionDisplayed(listMenus);
+                setIndexMenuSectionDisplayed(0);
             }
             else {
                 var _menusSection = chunkArray(listMenus, 5);
                 setMenusSections(_menusSection);
-                setIndexMenuSectionDisplayed(0);
-                setCurrentMenuSectionDisplayed(_menusSection[0]);
+                if (_menusSection.length >= indexMenuSectionDisplayed) {
+                    setCurrentMenuSectionDisplayed(_menusSection[indexMenuSectionDisplayed]);
+                }
+                else {
+                    setCurrentMenuSectionDisplayed(_menusSection[0]);
+                    setIndexMenuSectionDisplayed(0);
+                }
             }
         }
     }
@@ -66,7 +83,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
         setTimeout(() => {
             setIndexMenuSectionDisplayed(indexMenuSectionDisplayed as number + 1);
             if (menuSections) setCurrentMenuSectionDisplayed(menuSections[indexMenuSectionDisplayed as number + 1]);
-        }, 250);    
+        }, 250);
 
     }
 
@@ -88,20 +105,75 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
         }, 250);
     }
 
-    useEffect(() => {
-        buildMenusSections();
-    }, [listMenus])
+    const handleMenuClick = (displayText: string) => {
+        const subMenu = document.getElementById(`subMenu${displayText}`);
 
-    return (
-        <div className='h-full w-full flex flex-row justify-around border-l border-r border-gray-400 '>
+        const otherSubMenus = document.querySelectorAll("[id*='subMenu']");
+
+        otherSubMenus.forEach(element => {
+            if (!element.classList.contains('hidden')) {
+                element.classList.add('hidden');
+            }
+        })
+
+        if (subMenu?.classList.contains('hidden')) {
+            subMenu?.classList.remove("hidden");
+        }
+        else {
+            subMenu?.classList.add("hidden");
+        }
+    }
+
+    const closeSubMenus = (event: MouseEvent): any => {
+        Object.values(menusRefs.current).forEach(menu => {
+            if (!menu?.contains(event.target as Node)) {
+                const htmlMenu = menu as HTMLUListElement | null;
+                if (htmlMenu && !htmlMenu.classList.contains('hidden')) {
+                    htmlMenu.classList.add('hidden');
+                }
+            }
+        })
+    }
+
+    const ComponentLeftArrow = (
+        <>
             {
                 menuSections && menuSections?.length > 1 &&
                 (
-                    <div className='flex justify-center items-center my-auto'>
+                    <div className={`flex justify-center items-center my-auto ${indexMenuSectionDisplayed === 0 ? 'opacity-0' : ''}`}>
                         <img onClick={handleLeftMenuClick} src={left_arrow} className='w-5/12' />
                     </div>
                 )
             }
+        </>
+    )
+
+    const componentRightArrow = (
+        <>
+            {
+                menuSections && menuSections?.length > 1 &&
+                (
+                    <div className={`flex justify-center items-center ${indexMenuSectionDisplayed === menuSections.length - 1 ? 'opacity-0' : ''}`}>
+                        <img onClick={handleRightMenuClick} src={right_arrow} className='w-5/12' />
+                    </div>
+                )
+            }
+        </>
+    )
+
+    useEffect(() => {
+        buildMenusSections();
+
+        document.addEventListener('mousedown', closeSubMenus)
+        return () => {
+            document.removeEventListener('mousedown', closeSubMenus)
+        }
+
+    }, [listMenus])
+
+    return (
+        <div className='h-full w-full flex flex-row justify-around border-l border-r border-gray-400 '>
+            {ComponentLeftArrow}
             <div className='flex flex-row justify-around w-full menu-header' ref={menuCenterContainerRef}>
                 {
                     currentMenuSectionDisplayed?.map((menu, index) => {
@@ -109,21 +181,33 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
 
                         return (
                             <p
-                                className='text-slate-600 hover:text-slate-400 cursor-pointer'
+                                className='text-slate-600  cursor-pointer'
+                                onClick={() => { handleMenuClick(menu.displayText); }}
                                 key={_key}>
-                                {menu.displayText}
+                                <span className='hover:text-slate-400'>
+                                    {menu.displayText}
+                                </span>
+                                {
+                                    Array.isArray(menu.children) && (
+                                        <ul
+                                            id={`subMenu${menu.displayText}`}
+                                            ref={element => menusRefs.current[index] = element}
+                                            className='block bg-white rounded-lg mt-3 shadow-md absolute hidden'>
+                                            {
+                                                menu.children.map(menuChildren => (
+                                                    <li className='px-3 py-2  hover:bg-slate-100 rounded-md'>
+                                                        <a href='www.google.com'>{menuChildren.displayText}</a>
+                                                    </li>
+                                                ))
+                                            }
+                                        </ul>
+                                    )
+                                }
                             </p>
                         )
                     })}
             </div>
-            {
-                menuSections && menuSections?.length > 1 &&
-                (
-                    <div className='flex justify-center items-center'>
-                        <img onClick={handleRightMenuClick} src={right_arrow} className='w-5/12' />
-                    </div>
-                )
-            }
+            {componentRightArrow}
         </div >
     );
 }
