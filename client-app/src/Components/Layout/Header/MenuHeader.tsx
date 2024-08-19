@@ -38,7 +38,6 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
         }
 
         if (result[result.length - 1].length < 5) {
-            console.log(result[1].length)
             for (let i = result[result.length - 1].length; i < 6; i++) {
                 result[result.length - 1].push({ displayText: '', children: [] });
             }
@@ -140,8 +139,15 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
             {
                 menuSections && menuSections?.length > 1 &&
                 (
-                    <div className={`flex justify-center items-center my-auto ${indexMenuSectionDisplayed === 0 ? 'opacity-0' : ''}`}>
-                        <img onClick={handleLeftMenuClick} src={left_arrow} className='w-5/12' />
+                    <div
+                        className={`flex justify-center items-center my-auto ${indexMenuSectionDisplayed === 0 ? 'opacity-0' : ''}`}
+                        onClick={handleLeftMenuClick}
+                    >
+                        {/* <img  src={left_arrow} className='w-5/12' /> */}
+                        <span className="material-icon material-symbols-outlined text-white text-sm  pr-2 pl-6 cursor-pointer" >
+                            arrow_back_ios
+                        </span>
+
                     </div>
                 )
             }
@@ -153,8 +159,14 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
             {
                 menuSections && menuSections?.length > 1 &&
                 (
-                    <div className={`flex justify-center items-center ${indexMenuSectionDisplayed === menuSections.length - 1 ? 'opacity-0' : ''}`}>
-                        <img onClick={handleRightMenuClick} src={right_arrow} className='w-5/12' />
+                    <div
+                        className={`flex justify-center items-center ${indexMenuSectionDisplayed === menuSections.length - 1 ? 'opacity-0' : ''}`}
+                        onClick={handleRightMenuClick}
+                    >
+                        {/* <img  src={right_arrow} className='w-5/12' /> */}
+                        <span className="material-icon material-symbols-outlined text-white text-sm pl-2 pr-6 cursor-pointer" >
+                            arrow_forward_ios
+                        </span>
                     </div>
                 )
             }
@@ -174,17 +186,20 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
     return (
         <div className='h-full w-full flex flex-row justify-around border-l border-r border-gray-400 '>
             {ComponentLeftArrow}
-            <div className='flex flex-row justify-around w-full menu-header' ref={menuCenterContainerRef}>
+            <div
+                className='flex flex-row justify-around w-full menu-header'
+                ref={menuCenterContainerRef}
+            >
                 {
                     currentMenuSectionDisplayed?.map((menu, index) => {
                         const _key = (+indexMenuSectionDisplayed * 5) + index;
 
                         return (
-                            <p
-                                className='text-slate-600  cursor-pointer'
+                            <div
+                                className='text-white cursor-pointer'
                                 onClick={() => { handleMenuClick(menu.displayText); }}
                                 key={_key}>
-                                <span className='hover:text-slate-400'>
+                                <span className='hover:text-slate-400 text-nowrap font-semibold text-sm'>
                                     {menu.displayText}
                                 </span>
                                 {
@@ -192,18 +207,21 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
                                         <ul
                                             id={`subMenu${menu.displayText}`}
                                             ref={element => menusRefs.current[index] = element}
-                                            className='block bg-white rounded-lg mt-3 shadow-md absolute hidden'>
+                                            className='block text-black bg-white rounded-lg mt-3 shadow-md absolute hidden'>
                                             {
-                                                menu.children.map(menuChildren => (
-                                                    <li className='px-3 py-2  hover:bg-slate-100 rounded-md'>
-                                                        <a href='www.google.com'>{menuChildren.displayText}</a>
+                                                menu.children.map((menuChildren, iKey) => (
+                                                    <li
+                                                        className='px-3 py-2  hover:bg-slate-100 rounded-md'
+                                                        key={iKey}
+                                                    >
+                                                        <a href='#'>{menuChildren.displayText}</a>
                                                     </li>
                                                 ))
                                             }
                                         </ul>
                                     )
                                 }
-                            </p>
+                            </div>
                         )
                     })}
             </div>

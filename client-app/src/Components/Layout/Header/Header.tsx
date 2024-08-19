@@ -240,15 +240,19 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
     }]
 
   return (
-    <div className='w-screen h-16 bg-slate-200 border border-gray-300 grid grid-cols-2 md:grid-cols-6 shadow-md shadow-gray-200' >
-      <a href='/' className='mx-12 my-auto text-xl text-zinc-600 font-semibold'>TutoSite</a>
+    <div className='w-screen h-16 bg-sky-900 border border-gray-300 grid grid-cols-2 md:grid-cols-6 shadow-md shadow-gray-200' >
+      <a href='/' className='mx-12 my-auto text-xl text-white font-semibold'>TutoSite</a>
       <div className='max-md:hidden grid-cols-subgrid col-span-4 my-auto'>
         <MenuHeader listMenus={menu} />
       </div>
       <div className='text-center my-auto'>
-        <div className='' onClick={OpenProfileMenu}>
-          <a className='text-zinc-600 inline-block font-serif cursor-pointer'>Hola, {userName}</a>
-          <img className='inline-block w-7 ml-3 cursor-pointer' src={anonimous_icon} />
+        <div className='flex flex-row justify-center items-center' onClick={OpenProfileMenu}>
+          <span><a className='text-white inline-block font-serif cursor-pointer text-center'>Hola, {userName}</a></span>
+          <span 
+            className="material-icon material-symbols-outlined text-white text-md px-2 cursor-pointer text-center" >
+            account_circle
+          </span>
+          {/* <img className='inline-block w-7 ml-3 cursor-pointer' src={anonimous_icon} /> */}
         </div>
         {
           menuProfileOpen && (
@@ -256,7 +260,7 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
               ref={menuProfileContainerRef}
               className='animate-fade-down animate-duration-500 animate-ease-out absolute right-4 xl:right-24 w-1/2 sm md:w-1/6 xl:w-1/12 '>
               <div className='banderin mx-auto'></div>
-              <div className='rounded-md shadow-xl bg-slate-400 text-white py-2 flex flex-col items-center gap-2'>
+              <div className='rounded-md shadow-xl bg-white py-2 flex flex-col items-center gap-2'>
                 <button className=''>Mi perfil</button>
                 <button className='' onClick={logOutClick}>Cerrar sesion</button>
               </div>
