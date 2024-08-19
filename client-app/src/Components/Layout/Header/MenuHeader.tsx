@@ -3,6 +3,7 @@ import { left_arrow, right_arrow } from '../../../Assets/images';
 import './Header.css';
 
 interface MenuLayout {
+    iconUrl?: string,
     displayText: string,
     children: Array<MenuLayout> | string
 }
@@ -199,6 +200,9 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
                                 className='text-white cursor-pointer'
                                 onClick={() => { handleMenuClick(menu.displayText); }}
                                 key={_key}>
+                                {/* <span className='material-icon material-symbols-outlined px-2'>
+                                bar_chart_4_bars
+                                </span> */}
                                 <span className='hover:text-slate-400 text-nowrap font-semibold text-sm'>
                                     {menu.displayText}
                                 </span>
@@ -207,7 +211,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
                                         <ul
                                             id={`subMenu${menu.displayText}`}
                                             ref={element => menusRefs.current[index] = element}
-                                            className='block text-black bg-white rounded-lg mt-3 shadow-md absolute hidden'>
+                                            className='block text-black border border-gray-200 bg-white rounded-lg mt-3 shadow-md absolute hidden'>
                                             {
                                                 menu.children.map((menuChildren, iKey) => (
                                                     <li
