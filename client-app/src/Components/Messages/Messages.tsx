@@ -1,5 +1,5 @@
 import { ReactNode, useEffect, useRef, useState } from "react";
-import { confirm_gif, loading_gif, loading_gif_white } from "../../Assets/images";
+import { confirm_gif, error_icon, info_icon, loading_gif, loading_gif_white, warning_icon } from "../../Assets/images";
 
 
 const useMessages = () => {
@@ -119,7 +119,7 @@ const useMessages = () => {
         confirmContainerRef.current?.classList.add('animate-jump-out');
         confirmContainerRef.current?.classList.add('animate-ease-out');
         confirmContainerRef.current?.classList.add('animate-duration-300');
-  
+
         setTimeout(() => {
             setIsConfirm(false);
         }, 200);
@@ -152,6 +152,7 @@ const useMessages = () => {
     useEffect(() => {
         if (isError) errorRef.current?.focus();
     }, [isError])
+
 
     const MessagesNodes = (
         <>
@@ -186,10 +187,11 @@ const useMessages = () => {
                             ref={ErrorContainerRef}
                             className="w-2/3 md:w-1/4 bg-zinc-300 text-neutral-600 flex flex-col items-center justify-center rounded-lg shadow-md shadow-zinc-900 animate-jump-in animate-ease-out animate-duration-300">
                             <div className="border-b border-b-zinc-400 w-full drop-shadow-md">
-                                <h4 className="text-red-500 text-2xl mx-6 my-2">Error</h4>
+                                <h4 className="text-neutral-600 text-2xl mx-6 my-2">Error</h4>
                             </div>
-                            <div className="border-b border-b-zinc-400 bg-white text-start w-full p-6">
-                                <p>{errorMessage}</p>
+                            <div className="border-b border-b-zinc-400 bg-white text-start w-full p-6 grid grid-flow-col grid-cols-4">
+                                <img src={error_icon} className="h-12 mx-auto my-auto" />
+                                <p className="grid-cols-subgrid col-span-3">{errorMessage}</p>
                             </div>
                             <div className="p-2">
                                 <button
@@ -208,10 +210,11 @@ const useMessages = () => {
                             ref={confirmContainerRef}
                             className="w-11/12 md:w-2/3 lg:w-1/4 bg-zinc-300 flex flex-col items-center justify-center rounded-lg shadow-md shadow-zinc-900 animate-jump-in animate-ease-out animate-duration-300">
                             <div className="border-b border-b-zinc-400 w-full drop-shadow-md">
-                                <h4 className="text-yellow-300  text-2xl mx-6 my-2">Precaución</h4>
+                                <h4 className="text-neutral-600 text-2xl mx-6 my-2">Precaución</h4>
                             </div>
-                            <div className="border-b border-b-zinc-400 text-start w-full p-6 bg-white">
-                                <p>¿Esta seguro de realizar la siguiente acción?</p>
+                            <div className="border-b border-b-zinc-400 text-start w-full p-6 bg-white grid grid-cols-4">
+                                <img src={warning_icon} className="h-12 mx-auto my-auto" />
+                                <p className="grid-cols-subgrid col-span-3">¿Esta seguro de realizar la siguiente acción?</p>
                             </div>
                             <div className="p-2">
                                 <button
@@ -235,8 +238,9 @@ const useMessages = () => {
                             <div className="border-b border-b-zinc-400 w-full">
                                 <h4 className="text-neutral-600 text-2xl mx-6 my-2">Información</h4>
                             </div>
-                            <div className="border-b border-b-zinc-400 bg-white text-start w-full p-6">
-                                <p>{messageInfo}</p>
+                            <div className="border-b border-b-zinc-400 bg-white text-start w-full p-6 grid grid-flow-col grid-cols-4">
+                                <img src={info_icon} className="h-12 mx-auto my-auto" />
+                                <p className="grid-cols-subgrid col-span-3">{messageInfo}</p>
                             </div>
                             <div className="p-2">
                                 <button

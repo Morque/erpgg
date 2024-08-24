@@ -1,0 +1,1026 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "serverApp.models",
+        "description": "serverApp.models",
+        "isExtraImport": true,
+        "detail": "serverApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Register",
+        "importPath": "serverApp.Helpers.Logs",
+        "description": "serverApp.Helpers.Logs",
+        "isExtraImport": true,
+        "detail": "serverApp.Helpers.Logs",
+        "documentation": {}
+    },
+    {
+        "label": "Register",
+        "importPath": "serverApp.Helpers.Logs",
+        "description": "serverApp.Helpers.Logs",
+        "isExtraImport": true,
+        "detail": "serverApp.Helpers.Logs",
+        "documentation": {}
+    },
+    {
+        "label": "is_authorized",
+        "importPath": "serverApp.Helpers.Decorators",
+        "description": "serverApp.Helpers.Decorators",
+        "isExtraImport": true,
+        "detail": "serverApp.Helpers.Decorators",
+        "documentation": {}
+    },
+    {
+        "label": "generate_ssid_token",
+        "importPath": "serverApp.Helpers.Tokens",
+        "description": "serverApp.Helpers.Tokens",
+        "isExtraImport": true,
+        "detail": "serverApp.Helpers.Tokens",
+        "documentation": {}
+    },
+    {
+        "label": "check_password",
+        "importPath": "serverApp.Helpers.Tokens",
+        "description": "serverApp.Helpers.Tokens",
+        "isExtraImport": true,
+        "detail": "serverApp.Helpers.Tokens",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "serverApp.Helpers.Tokens",
+        "description": "serverApp.Helpers.Tokens",
+        "isExtraImport": true,
+        "detail": "serverApp.Helpers.Tokens",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "serverApp.Models.users",
+        "description": "serverApp.Models.users",
+        "isExtraImport": true,
+        "detail": "serverApp.Models.users",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "serverApp.Models.users",
+        "description": "serverApp.Models.users",
+        "isExtraImport": true,
+        "detail": "serverApp.Models.users",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "serverApp.Models.users",
+        "description": "serverApp.Models.users",
+        "isExtraImport": true,
+        "detail": "serverApp.Models.users",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "serverApp.Models.job_codes",
+        "description": "serverApp.Models.job_codes",
+        "isExtraImport": true,
+        "detail": "serverApp.Models.job_codes",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "serverApp.Models.permissions",
+        "description": "serverApp.Models.permissions",
+        "isExtraImport": true,
+        "detail": "serverApp.Models.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "serverApp.Models.permissions",
+        "description": "serverApp.Models.permissions",
+        "isExtraImport": true,
+        "detail": "serverApp.Models.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "serverApp.Models",
+        "description": "serverApp.Models",
+        "isExtraImport": true,
+        "detail": "serverApp.Models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "serverApp.Controllers.usersControllers",
+        "description": "serverApp.Controllers.usersControllers",
+        "isExtraImport": true,
+        "detail": "serverApp.Controllers.usersControllers",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "serverApp.Controllers.SecurityControllers",
+        "description": "serverApp.Controllers.SecurityControllers",
+        "isExtraImport": true,
+        "detail": "serverApp.Controllers.SecurityControllers",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "client-app.node_modules.flatted.python.flatted",
+        "description": "client-app.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "client-app.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "client-app.node_modules.flatted.python.flatted",
+        "description": "client-app.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "client-app.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "client-app.node_modules.flatted.python.flatted",
+        "description": "client-app.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "client-app.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "client-app.node_modules.flatted.python.flatted",
+        "description": "client-app.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "client-app.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "client-app.node_modules.flatted.python.test",
+        "description": "client-app.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "client-app.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.asgi",
+        "description": "erpggServer.erpggServer.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "erpggServer.erpggServer.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-+3h2!yx^)u3%o_s)hye!2dl&7@!6ww%*0ed^2r7nz%@*a5%y5!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-+3h2!yx^)u3%o_s)hye!2dl&7@!6ww%*0ed^2r7nz%@*a5%y5!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'corsheaders',\n    'serverApp'",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n]",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "ROOT_URLCONF = 'erpggServer.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'erpggServer.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n     'default': {\n            'ENGINE': 'django.db.backends.mysql',\n            'NAME': 'bd_erpgg',\n            'USER': 'root',\n            'PASSWORD': 'root',\n            'HOST': 'localhost',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "DATABASES = {\n     'default': {\n            'ENGINE': 'django.db.backends.mysql',\n            'NAME': 'bd_erpgg',\n            'USER': 'root',\n            'PASSWORD': 'root',\n            'HOST': 'localhost',\n            'PORT': '3306',\n        }\n}",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nAPPEND_SLASH=True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nAPPEND_SLASH=True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_METHODS = [",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nAPPEND_SLASH=True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_METHODS = [\n    'DELETE',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "USE_TZ = True\nAPPEND_SLASH=True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_METHODS = [\n    'DELETE',\n    'GET',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_METHODS = [\n    'DELETE',\n    'GET',\n    'OPTIONS',\n    'PATCH',\n    'POST',\n    'PUT',",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_METHODS = [\n    'DELETE',\n    'GET',\n    'OPTIONS',\n    'PATCH',\n    'POST',\n    'PUT',\n]",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_CREDENTIALS",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_METHODS = [\n    'DELETE',\n    'GET',\n    'OPTIONS',\n    'PATCH',\n    'POST',\n    'PUT',\n]\n# Default primary key field type",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_METHODS",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "CORS_ALLOW_METHODS = [\n    'DELETE',\n    'GET',\n    'OPTIONS',\n    'PATCH',\n    'POST',\n    'PUT',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.settings",
+        "description": "erpggServer.erpggServer.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "erpggServer.erpggServer.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.urls",
+        "description": "erpggServer.erpggServer.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('serverApp.urls')),\n]",
+        "detail": "erpggServer.erpggServer.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "erpggServer.erpggServer.wsgi",
+        "description": "erpggServer.erpggServer.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "erpggServer.erpggServer.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "description": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "peekOfCode": "def login(request):\n    if 'user' in request.data and 'password' in request.data:\n        user_login = request.data['user']\n        password_login = request.data['password']\n        try:\n            user_find = User.objects.get(user = user_login)\n        except User.DoesNotExist:\n            return Response({'message': 'bad credentials'}, status=401)\n        if check_password(password_login, user_find.password):\n            token = generate_ssid_token()",
+        "detail": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "documentation": {}
+    },
+    {
+        "label": "is_token_valid",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "description": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "peekOfCode": "def is_token_valid(request, token=''):\n    try:\n        _user = User.objects.get(token=token)\n    except User.DoesNotExist:\n        return Response({'messages': 'data is not a valid token. There not exists or is expired.'},status=401)\n    except Exception as e:\n        Register(e.__str__())\n        return Response({'messages': 'Internal Error.'},status=500)\n    return Response({'message': 'token received: ' + token},status=200)\n@api_view(['GET'])",
+        "detail": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "documentation": {}
+    },
+    {
+        "label": "testing_method",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "description": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "peekOfCode": "def testing_method(request):\n        return Response({'message': 'OK'},status=200)",
+        "detail": "erpggServer.serverApp.Controllers.SecurityControllers",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Controllers.usersControllers",
+        "description": "erpggServer.serverApp.Controllers.usersControllers",
+        "peekOfCode": "def users(request):\n    if request.method == 'POST':\n        return save_user(request)\n    elif request.method == 'PATCH':\n        return update_user(request)\n    else:\n        return Response({'messages': 'Method doesn\\'t exists'}, status=400)\ndef save_user(request):\n    if  ('first_name' in request.data and\n        'last_name' in request.data and",
+        "detail": "erpggServer.serverApp.Controllers.usersControllers",
+        "documentation": {}
+    },
+    {
+        "label": "save_user",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Controllers.usersControllers",
+        "description": "erpggServer.serverApp.Controllers.usersControllers",
+        "peekOfCode": "def save_user(request):\n    if  ('first_name' in request.data and\n        'last_name' in request.data and\n        'employee_number' in request.data and \n        'user' in request.data and \n        'password' in request.data):        \n        _user = User\n        _user.first_name = request.data['first_name']\n        _user.last_name = request.data['last_name']\n        _user.employee_number = request.data['employee_number']",
+        "detail": "erpggServer.serverApp.Controllers.usersControllers",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Controllers.usersControllers",
+        "description": "erpggServer.serverApp.Controllers.usersControllers",
+        "peekOfCode": "def update_user(request):\n    if  (\n        'id' in request.data and \n        'first_name' in request.data and\n        'last_name' in request.data and\n        'employee_number' in request.data and \n        'password' in request.data):\n        try:\n            _user = User.objects.get(id=request.data['id'])\n        except User.DoesNotExist:",
+        "detail": "erpggServer.serverApp.Controllers.usersControllers",
+        "documentation": {}
+    },
+    {
+        "label": "is_authorized",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Helpers.Decorators",
+        "description": "erpggServer.serverApp.Helpers.Decorators",
+        "peekOfCode": "def is_authorized(permission_code):\n    def decorator(func):\n        def wrapper(*args, **kwards):\n            request = args[0]\n            if 'Authorization' in request.headers:\n                ssid = request.headers[\"Authorization\"]\n                try:\n                    _user = User.objects.get(ssid_token=ssid)\n                    if _user.ssid_expires < datetime.now():\n                        return Response({'message': 'Not Authorized'},status=401)",
+        "detail": "erpggServer.serverApp.Helpers.Decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Register",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Helpers.Logs",
+        "description": "erpggServer.serverApp.Helpers.Logs",
+        "peekOfCode": "def Register(str_event):\n    file_object = open(path, 'a')\n    line_text = datetime.now().strftime('%Y-%m-%d %I:%M').__str__() + ' | message: | ' + str_event + '\\n'\n    file_object.write(line_text)\n    file_object.close()\n    return",
+        "detail": "erpggServer.serverApp.Helpers.Logs",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "kind": 5,
+        "importPath": "erpggServer.serverApp.Helpers.Logs",
+        "description": "erpggServer.serverApp.Helpers.Logs",
+        "peekOfCode": "path = 'tmp.log'\ndef Register(str_event):\n    file_object = open(path, 'a')\n    line_text = datetime.now().strftime('%Y-%m-%d %I:%M').__str__() + ' | message: | ' + str_event + '\\n'\n    file_object.write(line_text)\n    file_object.close()\n    return",
+        "detail": "erpggServer.serverApp.Helpers.Logs",
+        "documentation": {}
+    },
+    {
+        "label": "generate_ssid_token",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Helpers.Tokens",
+        "description": "erpggServer.serverApp.Helpers.Tokens",
+        "peekOfCode": "def generate_ssid_token() -> str:\n    characters = string.ascii_letters + string.digits\n    return ''.join(random.choice(characters) for _ in range(128))\ndef is_ssid_token_valid() -> bool:\n    return True\ndef hash_password(password: str) -> str:\n    salt = bcrypt.gensalt()\n    hashed_password = bcrypt.hashpw(password.encode('utf-8'), salt)\n    return hashed_password.decode('utf-8')\ndef check_password(password: str, hashed_password: str) -> bool:",
+        "detail": "erpggServer.serverApp.Helpers.Tokens",
+        "documentation": {}
+    },
+    {
+        "label": "is_ssid_token_valid",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Helpers.Tokens",
+        "description": "erpggServer.serverApp.Helpers.Tokens",
+        "peekOfCode": "def is_ssid_token_valid() -> bool:\n    return True\ndef hash_password(password: str) -> str:\n    salt = bcrypt.gensalt()\n    hashed_password = bcrypt.hashpw(password.encode('utf-8'), salt)\n    return hashed_password.decode('utf-8')\ndef check_password(password: str, hashed_password: str) -> bool:\n    return bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8'))",
+        "detail": "erpggServer.serverApp.Helpers.Tokens",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Helpers.Tokens",
+        "description": "erpggServer.serverApp.Helpers.Tokens",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    salt = bcrypt.gensalt()\n    hashed_password = bcrypt.hashpw(password.encode('utf-8'), salt)\n    return hashed_password.decode('utf-8')\ndef check_password(password: str, hashed_password: str) -> bool:\n    return bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8'))",
+        "detail": "erpggServer.serverApp.Helpers.Tokens",
+        "documentation": {}
+    },
+    {
+        "label": "check_password",
+        "kind": 2,
+        "importPath": "erpggServer.serverApp.Helpers.Tokens",
+        "description": "erpggServer.serverApp.Helpers.Tokens",
+        "peekOfCode": "def check_password(password: str, hashed_password: str) -> bool:\n    return bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8'))",
+        "detail": "erpggServer.serverApp.Helpers.Tokens",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "erpggServer.serverApp.migrations.0001_initial",
+        "description": "erpggServer.serverApp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Permission',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('description', models.CharField(max_length=150)),",
+        "detail": "erpggServer.serverApp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "erpggServer.serverApp.migrations.0002_remove_jobcode_permission_code_jobcode_permission_and_more",
+        "description": "erpggServer.serverApp.migrations.0002_remove_jobcode_permission_code_jobcode_permission_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('serverApp', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='jobcode',\n            name='permission_code',\n        ),\n        migrations.AddField(",
+        "detail": "erpggServer.serverApp.migrations.0002_remove_jobcode_permission_code_jobcode_permission_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "erpggServer.serverApp.migrations.0003_user_ssid_expires",
+        "description": "erpggServer.serverApp.migrations.0003_user_ssid_expires",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('serverApp', '0002_remove_jobcode_permission_code_jobcode_permission_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='user',\n            name='ssid_expires',\n            field=models.DateTimeField(default=datetime.datetime(2024, 8, 22, 13, 49, 42, 75524)),\n            preserve_default=False,",
+        "detail": "erpggServer.serverApp.migrations.0003_user_ssid_expires",
+        "documentation": {}
+    },
+    {
+        "label": "JobCode",
+        "kind": 6,
+        "importPath": "erpggServer.serverApp.Models.job_codes",
+        "description": "erpggServer.serverApp.Models.job_codes",
+        "peekOfCode": "class JobCode(models.Model):\n    user = models.ForeignKey(User, on_delete=models.PROTECT)\n    permission = models.ForeignKey(Permission, on_delete=models.PROTECT)",
+        "detail": "erpggServer.serverApp.Models.job_codes",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "kind": 6,
+        "importPath": "erpggServer.serverApp.Models.permissions",
+        "description": "erpggServer.serverApp.Models.permissions",
+        "peekOfCode": "class Permission(models.Model):\n    description = models.CharField(max_length=150)    \n    code = models.CharField(max_length=150)\n    is_menu = models.BooleanField()\n    is_submenu = models.BooleanField()",
+        "detail": "erpggServer.serverApp.Models.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "erpggServer.serverApp.Models.users",
+        "description": "erpggServer.serverApp.Models.users",
+        "peekOfCode": "class User(models.Model):\n    first_name = models.CharField(max_length=150)\n    last_name = models.CharField(max_length=150)\n    employee_number = models.CharField(max_length=50)\n    ssid_token = models.CharField(max_length=128)\n    ssid_expires = models.DateTimeField()\n    user = models.CharField(max_length=150)\n    password = models.CharField(max_length=250)",
+        "detail": "erpggServer.serverApp.Models.users",
+        "documentation": {}
+    },
+    {
+        "label": "ServerappConfig",
+        "kind": 6,
+        "importPath": "erpggServer.serverApp.apps",
+        "description": "erpggServer.serverApp.apps",
+        "peekOfCode": "class ServerappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'serverApp'",
+        "detail": "erpggServer.serverApp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "erpggServer.serverApp.urls",
+        "description": "erpggServer.serverApp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login',login),\n    path('users',users),\n    path('security/token/isvalid/<token>',is_token_valid),\n    path('test',testing_method)\n]",
+        "detail": "erpggServer.serverApp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "erpggServer.manage",
+        "description": "erpggServer.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'erpggServer.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "erpggServer.manage",
+        "documentation": {}
+    }
+]

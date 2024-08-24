@@ -5,6 +5,7 @@ class User(models.Model):
     last_name = models.CharField(max_length=150)
     employee_number = models.CharField(max_length=50)
     ssid_token = models.CharField(max_length=128)
+    ssid_expires = models.DateTimeField()
     user = models.CharField(max_length=150)
     password = models.CharField(max_length=250)
     

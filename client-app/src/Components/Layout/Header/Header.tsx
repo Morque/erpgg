@@ -240,9 +240,9 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
     }]
 
   return (
-    <div className='w-screen h-16 bg-sky-900 border-gray-300 grid grid-cols-2 md:grid-cols-6 shadow-md shadow-gray-200' >
+    <div className='w-screen h-16 bg-sky-900 border-gray-300 grid grid-cols-2 xl:grid-cols-6 shadow-md shadow-gray-200' >
       <a href='/' className='mx-12 my-auto text-xl text-white font-semibold'>TutoSite</a>
-      <div className='max-md:hidden grid-cols-subgrid col-span-4 my-auto'>
+      <div className='max-xl:hidden grid-cols-subgrid col-span-4 my-auto'>
         <MenuHeader listMenus={menu} />
       </div>
       <div className='text-center my-auto'>
@@ -252,7 +252,6 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
             className="material-icon material-symbols-outlined text-white text-md px-2 cursor-pointer text-center" >
             account_circle
           </span>
-          {/* <img className='inline-block w-7 ml-3 cursor-pointer' src={anonimous_icon} /> */}
         </div>
         {
           menuProfileOpen && (

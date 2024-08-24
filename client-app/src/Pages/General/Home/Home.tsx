@@ -1,12 +1,12 @@
-import { FC } from 'react';
+import { FC, useContext, useEffect } from 'react';
 import Layout from '../../../Components/Layout/Layout';
 
-interface HomeProps {
-    children?: any
-}
 
-const Home: FC<HomeProps> = ({ children }) => {
-    
+const Home: FC = () => {
+
+    useEffect(() => {
+        
+    },[])
 
     return (
         <Layout>

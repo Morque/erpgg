@@ -1,6 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import { left_arrow, right_arrow } from '../../../Assets/images';
 import './Header.css';
+import { useNavigate } from 'react-router-dom';
+import { AlertsContext } from '../../../App';
 
 interface MenuLayout {
     iconUrl?: string,
@@ -27,9 +29,12 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
     const [currentMenuSectionDisplayed, setCurrentMenuSectionDisplayed] = useState<Array<MenuLayout>>();
 
     const { indexMenuSectionDisplayed, setIndexMenuSectionDisplayed } = useMenuSectionContext();
-    const menuCenterContainerRef = useRef<HTMLDivElement>(null);
+    const navigate = useNavigate();
+    const messages = useContext(AlertsContext);
 
+    const menuCenterContainerRef = useRef<HTMLDivElement>(null);
     const menusRefs = useRef<{ [key: number]: HTMLUListElement | null }>({});
+
 
     function chunkArray(array: Array<MenuLayout>, chunkSize: number) {
         const result = [];
@@ -135,6 +140,16 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
         })
     }
 
+    const handleSubMenusClick = (url: string) => {
+        messages.showLoading();
+        setTimeout(() => {
+            messages.showErrorMessage('Opss... Ocurre algo con tu red. No podemos navegar a la pagina indicada. Comunicate con tu proveedor de internet.');
+        }, 30000);
+        navigate(url);
+    }
+
+    
+
     const ComponentLeftArrow = (
         <>
             {
@@ -199,10 +214,8 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
                             <div
                                 className='text-white cursor-pointer'
                                 onClick={() => { handleMenuClick(menu.displayText); }}
-                                key={_key}>
-                                {/* <span className='material-icon material-symbols-outlined px-2'>
-                                bar_chart_4_bars
-                                </span> */}
+                                key={_key}
+                            >
                                 <span className='hover:text-slate-400 text-nowrap font-semibold text-sm'>
                                     {menu.displayText}
                                 </span>
@@ -215,10 +228,14 @@ const MenuHeader: React.FC<MenuHeaderProps> = ({ listMenus }) => {
                                             {
                                                 menu.children.map((menuChildren, iKey) => (
                                                     <li
-                                                        className='px-3 py-2  hover:bg-slate-100 rounded-md'
+                                                        className='px-3 py-2 hover:bg-slate-100 rounded-md'
                                                         key={iKey}
                                                     >
-                                                        <a href='#'>{menuChildren.displayText}</a>
+                                                        <span
+                                                            onClick={() => { if (typeof menuChildren.children === 'string') handleSubMenusClick(menuChildren.children as string) }}
+                                                        >
+                                                            {menuChildren.displayText}
+                                                        </span>
                                                     </li>
                                                 ))
                                             }
